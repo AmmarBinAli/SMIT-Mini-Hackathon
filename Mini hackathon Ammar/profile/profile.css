@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+
+
+* {
+    font-family: 'Merriweather', serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.bg-body-tertiary {
+    background-color: #483285;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.1);
+    color: white;
+}
+
+.nav-item:hover {
+    transform: scale(1.1);
+    color: white;
+}
+
+.btn {
+    color: white;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    color: white;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 32px;
+    font-size: 32px;
+    color: #483285;
+    font-weight: bold;
+}
+.card{
+    width: 60%;
+    margin-left: 8rem;
+    background-color: beige;
+    height: auto;
+    box-shadow: 0px 2px 4px 1px   rgb(72, 72, 72); 
+}
+.card img{
+    width: 250px;
+    margin: 30px;
+    border-radius: 5px;
+
+}
+h3{
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 30px;
+
+}
+input{
+    width: 250px;
+    margin: 10px 0px 10px 30px;
+    border-radius: 5px;
+
+}
+button.update{
+    width: 150px;
+    color: black;
+    margin: 10px 0px 10px 30px;
+    border-radius: 5px;
+    background-color: #483285;
+
+
+}
+button.update:hover{
+    background-color: #483285;
+    transform: scale(1.1);
+}

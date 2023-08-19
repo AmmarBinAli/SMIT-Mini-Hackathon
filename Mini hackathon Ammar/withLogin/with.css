@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+
+
+* {
+    font-family: 'Merriweather', serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.bg-body-tertiary {
+    background-color: #483285;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.1);
+    color: white;
+}
+
+.nav-item:hover {
+    transform: scale(1.1);
+    color: white;
+}
+
+.btn {
+    color: white;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    color: white;
+}
+
+h1,h2 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 32px;
+    font-size: 32px;
+    color: #483285;
+    font-weight: bold;
+}
+
+#title {
+    display: block;
+    margin: 10px 0px 10px 60px;
+    width: 80%;
+    border: 2px solid #483285;
+    border-radius: 5px;
+    color: black;
+}
+
+#area {
+    display: block;
+    margin: 10px 0px 10px 60px;
+    width: 80%;
+    border: 2px solid #483285;
+    border-radius: 5px;
+    color: black;
+
+}
+
+.blogbtn {
+    margin: 0px 0px 10px 60px;
+    border: 2px solid #483285;
+    border-radius: 5px;
+    color: black;
+    background-color: #483285;
+    color: white;
+
+
+}
+
+.publishblog {
+    background-color: #efeaff;
+    margin-left: 350px;
+    width: 50%;
+    border: 2px solid #483285;
+    border-radius: 5px;
+
+}
+
+.blogbtn:hover {
+    transform: scale(1.1);
+
+}
